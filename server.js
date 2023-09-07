@@ -1,7 +1,7 @@
-import express from 'express';
-import bodyParser  from 'body-parser';
-import OpenAI from 'openai'; // Import OpenAI modules
-import {MongoClient,ServerApiVersion} from 'mongodb';
+const express = require('express');
+const bodyParser =  require('body-parser');
+const OpenAI = require('openai'); // Import OpenAI modules
+const {MongoClient,ServerApiVersion} = require('mongodb');
 
 const app = express();
 
